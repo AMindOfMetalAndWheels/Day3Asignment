@@ -7,14 +7,11 @@
 #' @return Waist hip ratio
 #' @examples
 #' WHR <- WHR_function(90, 95)
-#'
-
+#' @export
+#' @name WHR_function
+#' @title test
 WHR_function <- function (waist_lenght, hip_lenght) {
   WHR <-waist_lenght / hip_lenght
   return (WHR)
 }
-WHR <- WHR_function(90, 95)
-
-
-devtools::document()
-dd
+#WHR <- WHR_function(90, 95)
