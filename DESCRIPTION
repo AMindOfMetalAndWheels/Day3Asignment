@@ -1,18 +1,15 @@
 Package: Day3AsigmentPackage
 Type: Package
-Title: Blue print to set up package
+Title: Blueprint to set up package
 Version: 0.1.0
-Author: Fabian Schleich 
-Maintainer: The package maintainer <fabianschleich@gmx.net>
-Description: Asignment Day 3, set up a package to help with the exam
+Description: Assignment Day 3, set up a package to help with the exam
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Authors@R: c(
-    person(c("The", "package"), "maintainer", , "fabianschleich@gmx.net", role = "cre"),
-    person("Fabian", "Schleich", role = "aut"),
-    person("Test", "-Osteron")
-  )
+    person("Fabian", "Schleich", email = "fabianschleich@gmx.net", role = c("aut", "cre")),
+    person("Test", "-Osteron", role = "ctb")
+)
 Imports: 
     ggplot2,
     plotly,
