@@ -8,11 +8,10 @@ Encoding: UTF-8
 LazyData: true
 Authors@R: c(
     person("Fabian", "Schleich", email = "fabianschleich@gmx.net", role = c("aut", "cre")),
-    person("Test", "-Osteron", role = "ctb")
+    person("Test", "Osteron", role = "cre")
 )
 Imports: 
     ggplot2,
-    plotly,
-    roxygen2
+    plotly
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
